@@ -548,6 +548,7 @@
   border: 1.25px solid #2e2f42;
   border-radius: 2px;
   cursor: pointer;
+  fill: transparent;
 }
 .form-checkbox-input {
   position: absolute;
@@ -565,7 +566,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  fill: #fff;
 }
 .form-checkbox-text {
   color: #757575;
@@ -694,4 +694,4 @@
   letter-spacing: 0.02em;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# !sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
