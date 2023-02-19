@@ -22,10 +22,10 @@
   <body class="body">
     <header class="header">
       <div class="container">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-header">Studio</span></a
+        >
         <nav class="nav-section">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-header">Studio</span></a
-          >
           <ul class="nav">
             <li>
               <a class="nav-link nav-link-active" href="./index.html">Studio</a>
@@ -38,8 +38,102 @@
             </li>
           </ul>
         </nav>
-        <address class="">
-          <ul class="address">
+        <button class="mobile-btn js-open-menu" type="button">
+          <svg class="mobile-btn-icon" width="32px" height="22px">
+            <use href="/images/icons.svg#icon-menu" />
+          </svg>
+        </button>
+        <div class="mobile-menu js-menu-container" id="mobile-menu">
+          <button
+            class="mobile-menu-btn js-close-menu"
+            type="button"
+            data-modal-close>
+            <svg width="8px" height="8px">
+              <use href="./images/icons.svg#icon-close" />
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list">
+              <li>
+                <a
+                  class="mobile-menu-nav-link mobile-menu-nav-link-active"
+                  href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a class="mobile-menu-nav-link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="mobile-menu-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mobile-menu-container">
+            <address class="mobile-menu-address">
+              <ul class="mobile-menu-address-list">
+                <li>
+                  <a class="mobile-menu-address-link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="mobile-menu-address-link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="mobile-menu-social-list">
+              <li>
+                <a
+                  class="mobile-menu-social-link"
+                  href="https://www.instagram.com"
+                  target="_blank">
+                  <svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-instagram" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="mobile-menu-social-link"
+                  href="https://twitter.com"
+                  target="_blank">
+                  <svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-twitter" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="mobile-menu-social-link"
+                  href="https://www.facebook.com"
+                  target="_blank">
+                  <svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-facebook" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="mobile-menu-social-link"
+                  href="https://www.linkedin.com"
+                  target="_blank">
+                  <svg width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-linkedin" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <address class="address">
+          <ul class="address-list">
             <li>
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -125,37 +219,49 @@
           <h2 class="doing-title">What are we doing</h2>
           <ul class="doing-list">
             <li class="doing-item">
-              <img
-                srcset="
-                  ./images/home/work/desktop.jpg    1x,
-                  ./images/home/work/desktop@2x.jpg 2x
-                "
-                src="./images/home/work/desktop.jpg"
-                alt="Image desktop app"
-                width="360"
-                height="300" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/home/doing/desktop_desktop.jpg    1x,
+                    ./images/home/doing/desktop_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <img
+                  src="./images/home/doing/desktop_desktop.jpg"
+                  alt="Image desktop app"
+                  width="360"
+                  height="300" />
+              </picture>
             </li>
             <li class="doing-item">
-              <img
-                srcset="
-                  ./images/home/work/mobile.jpg    1x,
-                  ./images/home/work/mobile@2x.jpg 2x
-                "
-                src="./images/home/work/mobile.jpg"
-                alt="Image mobile app"
-                width="360"
-                height="300" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/home/doing/mobile_desktop.jpg    1x,
+                    ./images/home/doing/mobile_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <img
+                  src="./images/home/doing/mobile_desktop.jpg"
+                  alt="Image mobile app"
+                  width="360"
+                  height="300" />
+              </picture>
             </li>
             <li class="doing-item">
-              <img
-                srcset="
-                  ./images/home/work/adaptive.jpg    1x,
-                  ./images/home/work/adaptive@2x.jpg 2x
-                "
-                src="./images/home/work/adaptive.jpg"
-                alt="Image adaptive app"
-                width="360"
-                height="300" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/home/doing/adaptive_desktop.jpg    1x,
+                    ./images/home/doing/adaptive_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <img
+                  src="./images/home/doing/adaptive_desktop.jpg"
+                  alt="Image adaptive app"
+                  width="360"
+                  height="300" />
+              </picture>
             </li>
           </ul>
         </div>
@@ -518,7 +624,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8px" height="8px">
@@ -607,7 +713,8 @@
           <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
