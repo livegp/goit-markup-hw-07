@@ -53,7 +53,6 @@
 }
 .header > .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 10px;
@@ -178,7 +177,6 @@
   }
   .header > .container {
     align-items: flex-start;
-    justify-content: space-between;
   }
   .mobile-btn {
     display: none;
@@ -186,11 +184,6 @@
   .nav {
     display: flex;
     gap: 40px;
-  }
-  .nav-section {
-    display: flex;
-    gap: 76px;
-    align-items: center;
   }
   .nav-link {
     padding: 38px 0;
@@ -241,13 +234,20 @@
     max-width: 1160px;
   }
   .header > .container {
+    justify-content: flex-start;
     padding-bottom: 24px;
+  }
+  .nav {
+    margin: 0 76px;
   }
   .nav-link {
     padding: 24px 0;
   }
   .nav-link-active::after {
     bottom: -4px;
+  }
+  .address {
+    margin-left: auto;
   }
   .address-list {
     flex-direction: row;
