@@ -295,6 +295,11 @@
   background-color: #404bbf;
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .box {
+    background-image: url("../images/home/hero/hero_mobile@2x.jpg");
+  }
+}
 @media screen and (min-width: 768px) {
   .hero {
     margin-top: 86px;
@@ -309,6 +314,11 @@
     line-height: 1.07;
   }
 }
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .box {
+    background-image: url("../images/home/hero/hero_table@2x.jpg");
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero {
     margin-top: 73px;
@@ -320,6 +330,11 @@
   .hero-title {
     margin: 0 auto 48px;
     letter-spacing: 0.02em;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .box {
+    background-image: url("../images/home/hero/hero_desktop@2x.jpg");
   }
 }
 .skills {
