@@ -849,11 +849,10 @@ h6 {
     padding: 100px 0;
   }
   .footer .container {
-    gap: 72px 0;
     justify-content: space-between;
   }
   .footer-content {
-    margin-right: 120px;
+    margin-right: 40px;
   }
 }
 .social-title {
@@ -884,11 +883,6 @@ h6 {
 @media screen and (min-width: 768px) {
   .social-title {
     text-align: left;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .social {
-    margin-right: 80px;
   }
 }
 .subscribe-title {
