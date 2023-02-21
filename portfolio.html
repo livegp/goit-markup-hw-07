@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="./css/reset.css" />
+    <link href="./css/reset.css" rel="stylesheet" />
     <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -36,32 +36,28 @@
               >
             </li>
             <li>
-              <a class="nav-link" href="">Contacts</a>
+              <a class="nav-link" href>Contacts</a>
             </li>
           </ul>
         </nav>
         <button class="mobile-btn js-open-menu" type="button">
           <svg class="mobile-btn-icon" width="32px" height="22px">
-            <use href="/images/icons.svg#icon-menu" />
+            <use href="/images/icons.svg#icon-menu"></use>
           </svg>
         </button>
         <div class="mobile-menu js-menu-container" id="mobile-menu">
           <button
             class="mobile-menu-btn js-close-menu"
-            type="button"
-            data-modal-close>
+            data-modal-close
+            type="button">
             <svg width="8px" height="8px">
-              <use href="./images/icons.svg#icon-close" />
+              <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
           <nav class="mobile-menu-nav">
             <ul class="mobile-menu-nav-list">
               <li>
-                <a
-                  class="mobile-menu-nav-link"
-                  href="./index.html"
-                  >Studio</a
-                >
+                <a class="mobile-menu-nav-link" href="./index.html">Studio</a>
               </li>
               <li>
                 <a class="mobile-menu-nav-link" href="./portfolio.html"
@@ -69,7 +65,9 @@
                 >
               </li>
               <li>
-                <a class="mobile-menu-nav-link mobile-menu-nav-link-active" href="">Contacts</a>
+                <a class="mobile-menu-nav-link mobile-menu-nav-link-active" href
+                  >Contacts</a
+                >
               </li>
             </ul>
           </nav>
@@ -97,7 +95,7 @@
                   href="https://www.instagram.com"
                   target="_blank">
                   <svg width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-instagram" />
+                    <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
@@ -107,7 +105,7 @@
                   href="https://twitter.com"
                   target="_blank">
                   <svg width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-twitter" />
+                    <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
@@ -117,7 +115,7 @@
                   href="https://www.facebook.com"
                   target="_blank">
                   <svg width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-facebook" />
+                    <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
@@ -127,7 +125,7 @@
                   href="https://www.linkedin.com"
                   target="_blank">
                   <svg width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-linkedin" />
+                    <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
               </li>
@@ -164,22 +162,25 @@
           <h2 class="hidden">Work</h2>
           <ul class="work-list">
             <li class="work-item">
-              <a class="work-link" href="">
+              <a class="work-link" href>
                 <div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/banking_app_desktop.jpg    1x,
                         ./images/portfolio/banking_app_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/banking_app_tablet.jpg    1x,
                         ./images/portfolio/banking_app_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/banking_app_mobile.jpg    1x,
                         ./images/portfolio/banking_app_mobile@2x.jpg 2x
@@ -204,22 +205,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/cashless_payment_desktop.jpg    1x,
                         ./images/portfolio/cashless_payment_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/cashless_payment_tablet.jpg    1x,
                         ./images/portfolio/cashless_payment_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/cashless_payment_mobile.jpg    1x,
                         ./images/portfolio/cashless_payment_mobile@2x.jpg 2x
@@ -244,22 +248,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/meditaion_app_desktop.jpg    1x,
                         ./images/portfolio/meditaion_app_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/meditaion_app_tablet.jpg    1x,
                         ./images/portfolio/meditaion_app_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/meditaion_app_mobile.jpg    1x,
                         ./images/portfolio/meditaion_app_mobile@2x.jpg 2x
@@ -284,22 +291,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/taxi_service_desktop.jpg    1x,
                         ./images/portfolio/taxi_service_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/taxi_service_tablet.jpg    1x,
                         ./images/portfolio/taxi_service_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/taxi_service_mobile.jpg    1x,
                         ./images/portfolio/taxi_service_mobile@2x.jpg 2x
@@ -324,22 +334,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/screen_illustrations_desktop.jpg    1x,
                         ./images/portfolio/screen_illustrations_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/screen_illustrations_tablet.jpg    1x,
                         ./images/portfolio/screen_illustrations_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/screen_illustrations_mobile.jpg    1x,
                         ./images/portfolio/screen_illustrations_mobile@2x.jpg 2x
@@ -364,22 +377,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/online_courses_desktop.jpg    1x,
                         ./images/portfolio/online_courses_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/online_courses_tablet.jpg    1x,
                         ./images/portfolio/online_courses_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/online_courses_mobile.jpg    1x,
                         ./images/portfolio/online_courses_mobile@2x.jpg 2x
@@ -404,22 +420,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/instagram_stories_desktop.jpg    1x,
                         ./images/portfolio/instagram_stories_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/instagram_stories_tablet.jpg    1x,
                         ./images/portfolio/instagram_stories_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/instagram_stories_mobile.jpg    1x,
                         ./images/portfolio/instagram_stories_mobile@2x.jpg 2x
@@ -444,22 +463,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/organic_food_desktop.jpg    1x,
                         ./images/portfolio/organic_food_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/organic_food_tablet.jpg    1x,
                         ./images/portfolio/organic_food_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/organic_food_mobile.jpg    1x,
                         ./images/portfolio/organic_food_mobile@2x.jpg 2x
@@ -484,22 +506,25 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href=""
+              <a class="work-link" href
                 ><div class="work-image">
                   <picture>
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/fresh_coffee_desktop.jpg    1x,
                         ./images/portfolio/fresh_coffee_desktop@2x.jpg 2x
                       "
                       media="(min-width: 1200px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/fresh_coffee_tablet.jpg    1x,
                         ./images/portfolio/fresh_coffee_tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)" />
                     <source
+                      type="image/jpeg"
                       srcset="
                         ./images/portfolio/fresh_coffee_mobile.jpg    1x,
                         ./images/portfolio/fresh_coffee_mobile@2x.jpg 2x
@@ -547,14 +572,14 @@
                 href="https://www.instagram.com"
                 target="_blank">
                 <svg width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-instagram" />
+                  <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a class="social-link" href="https://twitter.com" target="_blank">
                 <svg width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-twitter" />
+                  <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
@@ -564,7 +589,7 @@
                 href="https://www.facebook.com"
                 target="_blank">
                 <svg width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-facebook" />
+                  <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
@@ -574,7 +599,7 @@
                 href="https://www.linkedin.com"
                 target="_blank">
                 <svg width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-linkedin" />
+                  <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
@@ -585,15 +610,15 @@
           <form class="subscribe-form">
             <input
               class="subscribe-form-input"
-              type="email"
               name="email"
+              type="email"
               required
               placeholder="E-mail"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
             <button class="subscribe-form-btn" type="submit">
               Subscribe
               <svg width="24px" height="24px">
-                <use href="./images/icons.svg#icon-send" />
+                <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </form>
