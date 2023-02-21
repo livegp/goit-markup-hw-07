@@ -695,6 +695,17 @@ h6 {
   padding-bottom: 128px;
   background-color: #f4f4fd;
 }
+@media screen and (min-width: 768px) {
+  .team {
+    padding-bottom: 104px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 .team-title {
   margin-bottom: 72px;
   color: #2e2f42;
@@ -710,6 +721,11 @@ h6 {
   flex-wrap: wrap;
   gap: 72px 24px;
   justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .team-list {
+    gap: 64px 24px;
+  }
 }
 .team-content {
   padding: 32px 16px;
@@ -752,20 +768,6 @@ h6 {
   background-color: #404bbf;
 }
 
-@media screen and (min-width: 768px) {
-  .team {
-    padding-bottom: 104px;
-  }
-  .team-list {
-    gap: 64px 24px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-}
 .customers {
   padding-top: 96px;
   padding-bottom: 96px;
