@@ -254,6 +254,7 @@ h6 {
 .container {
   width: 100%;
   min-width: 280px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -403,9 +404,6 @@ h6 {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
   .header > .container {
     align-items: flex-start;
   }
@@ -461,9 +459,6 @@ h6 {
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1160px;
-  }
   .header > .container {
     justify-content: flex-start;
     padding-bottom: 24px;
