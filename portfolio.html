@@ -9,27 +9,31 @@
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <a class="logo" href="./index.html"
+        <a class="logo" href="./index.html" title=""
           >Web<span class="logo-header">Studio</span></a
         >
         <nav class="nav-section">
           <ul class="nav">
             <li>
-              <a class="nav-link" href="./index.html">Studio</a>
+              <a class="nav-link" href="./index.html" title="">Studio</a>
             </li>
             <li>
-              <a class="nav-link nav-link-active" href="./portfolio.html"
+              <a
+                class="nav-link nav-link-active"
+                href="./portfolio.html"
+                title=""
                 >Portfolio</a
               >
             </li>
             <li>
-              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="#" title="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -41,8 +45,9 @@
         <div class="mobile-menu js-menu-container" id="mobile-menu">
           <button
             class="mobile-menu-btn js-close-menu"
+            type="button"
             data-modal-close
-            type="button">
+          >
             <svg width="8px" height="8px">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -50,15 +55,20 @@
           <nav class="mobile-menu-nav">
             <ul class="mobile-menu-nav-list">
               <li>
-                <a class="mobile-menu-nav-link" href="./index.html">Studio</a>
+                <a class="mobile-menu-nav-link" href="./index.html" title=""
+                  >Studio</a
+                >
               </li>
               <li>
-                <a class="mobile-menu-nav-link" href="./portfolio.html"
+                <a class="mobile-menu-nav-link" href="./portfolio.html" title=""
                   >Portfolio</a
                 >
               </li>
               <li>
-                <a class="mobile-menu-nav-link mobile-menu-nav-link-active" href="#"
+                <a
+                  class="mobile-menu-nav-link mobile-menu-nav-link-active"
+                  href="#"
+                  title=""
                   >Contacts</a
                 >
               </li>
@@ -68,7 +78,10 @@
             <address class="mobile-menu-address">
               <ul class="mobile-menu-address-list">
                 <li>
-                  <a class="mobile-menu-address-link" href="tel:+110001111111"
+                  <a
+                    class="mobile-menu-address-link"
+                    href="tel:+110001111111"
+                    title=""
                     >+11 (000) 111-11-11</a
                   >
                 </li>
@@ -76,6 +89,7 @@
                   <a
                     class="mobile-menu-address-link"
                     href="mailto:info@devstudio.com"
+                    title=""
                     >info@devstudio.com</a
                   >
                 </li>
@@ -86,7 +100,9 @@
                 <a
                   class="mobile-menu-social-link"
                   href="https://www.instagram.com"
-                  target="_blank">
+                  title=""
+                  target="_blank"
+                >
                   <svg width="24px" height="24px">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
@@ -96,7 +112,9 @@
                 <a
                   class="mobile-menu-social-link"
                   href="https://twitter.com"
-                  target="_blank">
+                  title=""
+                  target="_blank"
+                >
                   <svg width="24px" height="24px">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
@@ -106,7 +124,9 @@
                 <a
                   class="mobile-menu-social-link"
                   href="https://www.facebook.com"
-                  target="_blank">
+                  title=""
+                  target="_blank"
+                >
                   <svg width="24px" height="24px">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
@@ -116,7 +136,9 @@
                 <a
                   class="mobile-menu-social-link"
                   href="https://www.linkedin.com"
-                  target="_blank">
+                  title=""
+                  target="_blank"
+                >
                   <svg width="24px" height="24px">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
@@ -128,12 +150,12 @@
         <address class="address">
           <ul class="address-list">
             <li>
-              <a class="address-link" href="mailto:info@devstudio.com"
+              <a class="address-link" href="mailto:info@devstudio.com" title=""
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address-link" href="tel:+110001111111"
+              <a class="address-link" href="tel:+110001111111" title=""
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -155,7 +177,7 @@
           <h2 class="hidden">Work</h2>
           <ul class="work-list">
             <li class="work-item">
-              <a class="work-link" href>
+              <a class="work-link" href="#" title="">
                 <div class="work-image">
                   <picture>
                     <source
@@ -164,26 +186,31 @@
                         ./images/portfolio/banking_app_desktop.jpg    1x,
                         ./images/portfolio/banking_app_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/banking_app_tablet.jpg    1x,
                         ./images/portfolio/banking_app_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/banking_app_mobile.jpg    1x,
                         ./images/portfolio/banking_app_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/banking_app_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -198,7 +225,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="#" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -207,26 +234,31 @@
                         ./images/portfolio/cashless_payment_desktop.jpg    1x,
                         ./images/portfolio/cashless_payment_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/cashless_payment_tablet.jpg    1x,
                         ./images/portfolio/cashless_payment_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/cashless_payment_mobile.jpg    1x,
                         ./images/portfolio/cashless_payment_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/cashless_payment_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -241,7 +273,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -250,26 +282,31 @@
                         ./images/portfolio/meditaion_app_desktop.jpg    1x,
                         ./images/portfolio/meditaion_app_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/meditaion_app_tablet.jpg    1x,
                         ./images/portfolio/meditaion_app_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/meditaion_app_mobile.jpg    1x,
                         ./images/portfolio/meditaion_app_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/meditaion_app_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -284,7 +321,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="#" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -293,26 +330,31 @@
                         ./images/portfolio/taxi_service_desktop.jpg    1x,
                         ./images/portfolio/taxi_service_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/taxi_service_tablet.jpg    1x,
                         ./images/portfolio/taxi_service_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/taxi_service_mobile.jpg    1x,
                         ./images/portfolio/taxi_service_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/taxi_service_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -327,7 +369,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="#" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -336,26 +378,31 @@
                         ./images/portfolio/screen_illustrations_desktop.jpg    1x,
                         ./images/portfolio/screen_illustrations_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/screen_illustrations_tablet.jpg    1x,
                         ./images/portfolio/screen_illustrations_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/screen_illustrations_mobile.jpg    1x,
                         ./images/portfolio/screen_illustrations_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/screen_illustrations_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -370,7 +417,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -379,26 +426,31 @@
                         ./images/portfolio/online_courses_desktop.jpg    1x,
                         ./images/portfolio/online_courses_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/online_courses_tablet.jpg    1x,
                         ./images/portfolio/online_courses_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/online_courses_mobile.jpg    1x,
                         ./images/portfolio/online_courses_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/online_courses_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -413,7 +465,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -422,26 +474,31 @@
                         ./images/portfolio/instagram_stories_desktop.jpg    1x,
                         ./images/portfolio/instagram_stories_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/instagram_stories_tablet.jpg    1x,
                         ./images/portfolio/instagram_stories_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/instagram_stories_mobile.jpg    1x,
                         ./images/portfolio/instagram_stories_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/instagram_stories_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -456,7 +513,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="#" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -465,26 +522,31 @@
                         ./images/portfolio/organic_food_desktop.jpg    1x,
                         ./images/portfolio/organic_food_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/organic_food_tablet.jpg    1x,
                         ./images/portfolio/organic_food_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/organic_food_mobile.jpg    1x,
                         ./images/portfolio/organic_food_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/organic_food_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -499,7 +561,7 @@
               </a>
             </li>
             <li class="work-item">
-              <a class="work-link" href
+              <a class="work-link" href="#" title=""
                 ><div class="work-image">
                   <picture>
                     <source
@@ -508,26 +570,31 @@
                         ./images/portfolio/fresh_coffee_desktop.jpg    1x,
                         ./images/portfolio/fresh_coffee_desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1200px)" />
+                      media="(min-width: 1200px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/fresh_coffee_tablet.jpg    1x,
                         ./images/portfolio/fresh_coffee_tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)" />
+                      media="(min-width: 768px)"
+                    />
                     <source
                       type="image/jpeg"
                       srcset="
                         ./images/portfolio/fresh_coffee_mobile.jpg    1x,
                         ./images/portfolio/fresh_coffee_mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)" />
+                      media="(max-width: 767px)"
+                    />
                     <img
                       src="./images/portfolio/fresh_coffee_desktop.jpg"
+                      title=""
                       alt="An image of an example of a banking application"
                       width="360"
-                      height="300" />
+                      height="300"
+                    />
                   </picture>
                   <p class="work-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -548,7 +615,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <a class="logo" href="./index.html"
+          <a class="logo" href="./index.html" title=""
             >Web<span class="logo-footer">Studio</span></a
           >
           <p class="footer-text">
@@ -563,14 +630,21 @@
               <a
                 class="social-link"
                 href="https://www.instagram.com"
-                target="_blank">
+                title=""
+                target="_blank"
+              >
                 <svg width="24px" height="24px">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social-link" href="https://twitter.com" target="_blank">
+              <a
+                class="social-link"
+                href="https://twitter.com"
+                title=""
+                target="_blank"
+              >
                 <svg width="24px" height="24px">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
@@ -580,7 +654,9 @@
               <a
                 class="social-link"
                 href="https://www.facebook.com"
-                target="_blank">
+                title=""
+                target="_blank"
+              >
                 <svg width="24px" height="24px">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
@@ -590,7 +666,9 @@
               <a
                 class="social-link"
                 href="https://www.linkedin.com"
-                target="_blank">
+                title=""
+                target="_blank"
+              >
                 <svg width="24px" height="24px">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -601,13 +679,17 @@
         <div class="subscribe">
           <p class="subscribe-title">Subscribe</p>
           <form class="subscribe-form">
-            <input
-              class="subscribe-form-input"
-              name="email"
-              type="email"
-              required
-              placeholder="E-mail"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+            <label for="subscribe">
+              <input
+                class="subscribe-form-input"
+                id="subscribe"
+                name="email"
+                type="email"
+                required
+                placeholder="E-mail"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              />
+            </label>
             <button class="subscribe-form-btn" type="submit">
               Subscribe
               <svg width="24px" height="24px">
